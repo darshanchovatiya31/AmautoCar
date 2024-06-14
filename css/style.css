@@ -1,0 +1,478 @@
+/* playfair-display-regular - latin */
+@font-face {
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Playfair Display';
+      font-style: normal;
+      font-weight: 400;
+      src: url('../fonts/playfair-display-v36-latin-regular.woff2') format('woff2');
+      /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* playfair-display-500 - latin */
+@font-face {
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Playfair Display';
+      font-style: normal;
+      font-weight: 500;
+      src: url('../fonts/playfair-display-v36-latin-500.woff2') format('woff2');
+      /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* playfair-display-600 - latin */
+@font-face {
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Playfair Display';
+      font-style: normal;
+      font-weight: 600;
+      src: url('../fonts/playfair-display-v36-latin-600.woff2') format('woff2');
+      /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* playfair-display-700 - latin */
+@font-face {
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Playfair Display';
+      font-style: normal;
+      font-weight: 700;
+      src: url('../fonts/playfair-display-v36-latin-700.woff2') format('woff2');
+      /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* playfair-display-800 - latin */
+@font-face {
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Playfair Display';
+      font-style: normal;
+      font-weight: 800;
+      src: url('../fonts/playfair-display-v36-latin-800.woff2') format('woff2');
+      /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* playfair-display-900 - latin */
+@font-face {
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Playfair Display';
+      font-style: normal;
+      font-weight: 900;
+      src: url('../fonts/playfair-display-v36-latin-900.woff2') format('woff2');
+      /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* lato-100 - latin */
+@font-face {
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 100;
+      src: url('../fonts/lato-v24-latin-100.woff2') format('woff2');
+      /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* lato-300 - latin */
+@font-face {
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 300;
+      src: url('../fonts/lato-v24-latin-300.woff2') format('woff2');
+      /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* lato-regular - latin */
+@font-face {
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 400;
+      src: url('../fonts/lato-v24-latin-regular.woff2') format('woff2');
+      /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* lato-700 - latin */
+@font-face {
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 700;
+      src: url('../fonts/lato-v24-latin-700.woff2') format('woff2');
+      /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* lato-900 - latin */
+@font-face {
+      font-display: swap;
+      /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: 900;
+      src: url('../fonts/lato-v24-latin-900.woff2') format('woff2');
+      /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+:root {
+      --lato-font-family: 'Lato';
+      --main-font-family: 'Playfair Display';
+      --main-background-color: #9BB18F;
+      --light-background-color: #F6F6F6;
+}
+
+/* header bar */
+#head_bar {
+      font-family: var(--main-font-family);
+}
+nav ul li a{
+      border-bottom: 2px solid transparent !important;
+}
+nav ul li:hover a{
+      color: var(--main-background-color) !important;
+      border-bottom: 2px solid var(--main-background-color) !important;
+}
+/* end header bar */
+/* hero */
+#Hero {
+      font-family: var(--main-font-family);
+      width: 100%;
+      overflow: hidden;
+}
+#Hero .hero_main {
+      padding-right: 100px;
+}
+#Hero .hero_left {
+      max-width: 540px;
+      padding: 0 12px;
+}
+#Hero .hero_img {
+      width: 100%;
+}
+#Hero h1 {
+      font-size: 65px;
+}
+#Hero p {
+      font-size: 20px;
+      margin: 35px 0;
+      font-family: var(--lato-font-family);
+}
+#Hero a {
+      padding: 10px 40px;
+      font-size: 16px;
+      border: 1px solid black;
+}
+#Hero a:hover{
+      background-color: white !important;
+      color: black !important;
+}
+/* end hero */
+/* hero_bar */
+.hero_bar_sub h2 {
+      font-family: var(--main-font-family);
+}
+
+.hero_bar_sub p {
+      font-family: var(--lato-font-family);
+}
+
+/* end hero_bar */
+/* vintage */
+#vintage .vintage_main {
+      font-family: var(--main-font-family);
+}
+
+#vintage .vintage_left {
+      background-color: var(--main-background-color);
+      height: 400px;
+}
+
+#vintage .vintage_left .vintage_left_img {
+      left: -180px;
+      bottom: -100px;
+}
+
+#vintage .vintage_left .vintage_left_img img {
+      width: 100%;
+}
+
+#vintage .vintage_left .vintage_left_taxt {
+      color: #B4C39B;
+      top: 30px;
+      right: 50px;
+}
+
+#vintage .vintage_left .vintage_left_taxt h2 {
+      font-size: 70px;
+}
+
+#vintage .vintage_left .vintage_left_taxt h6 {
+      font-size: 30px;
+}
+
+#vintage .vintage_left .vintage_left_taxt p {
+      font-size: 70px;
+}
+
+#vintage .vintage_right {
+      background-color: var(--light-background-color);
+}
+
+#vintage .vintage_right .vintage_right_b {
+      color: var(--main-background-color);
+}
+#vintage .vintage_right a:hover{
+      color: white !important;
+      background-color: black !important;
+}
+/* end vintage */
+/* filter */
+#filter .filter_top_l {
+      width: 70%;
+}
+
+#filter .filter_top_l h2 {
+      font-family: var(--main-font-family);
+      font-size: 50px;
+}
+
+#filter .filter_top_l p {
+      font-family: var(--lato-font-family);
+}
+
+#filter .filter_top_r img {
+      width: 100%;
+}
+
+.filter_btn{
+      width: 200px;
+}
+.filter_btn:hover{
+      background-color: #7B7B7B !important;
+      color: white !important;
+}
+/* end filter */
+/* explore */
+#explore {
+      font-family: var(--main-font-family);
+}
+
+#explore p {
+      font-family: var(--lato-font-family);
+}
+.explore_btn button:hover{
+      background-color: black !important;
+      color: white !important;
+}
+/* end explore */
+/* quality */
+#quality{
+      font-family: var(--main-font-family);
+}
+#quality p{
+      font-family: var(--lato-font-family);
+}
+#quality .quality_left img {
+      width: 100%;
+}
+
+#quality .quality_left {
+      position: relative;
+}
+
+#quality .quality_left::before {
+      content: '';
+      position: absolute;
+      background-color: var(--main-background-color);
+      width: 4%;
+      height: 70%;
+      right: -2%;
+      top: 15%;
+}
+#quality .quality_right{
+      width: 70%;
+}
+#quality .quality_right h2{
+      font-size: 55px;
+}
+/* end quality */
+/* best */
+#best{
+      font-family: var(--main-font-family);
+}
+#best p{
+      font-family: var(--lato-font-family);
+}
+#best .best_right img{
+      width: 100%;
+}
+#best .best_left{
+      width: 90%;
+}
+#best .best_left h3{
+      font-size: 36px;
+}
+/* end best */
+/* posts */
+#posts img{
+      width: 100%;
+}
+/* end posts */
+/* news */
+#news{
+      background-color: var(--light-background-color);
+      font-family: var(--main-font-family);
+}
+/* end news */
+/* footer */
+#footer h4{
+      font-family: var(--main-font-family);
+}
+#footer p{
+      font-family: var(--lato-font-family);
+}
+/* end footer */
+
+
+
+
+@media (max-width: 1399px) {
+      #Hero .hero_main {
+            padding-right: 15px;
+      }
+      #quality .quality_right{
+            width: 80%;
+      }
+}
+
+@media (max-width: 1199px) {
+      #Hero .hero_left {
+            max-width: 470px;
+      }
+      #Hero h1 {
+            font-size: 55px;
+      }
+      #Hero p {
+            font-size: 18px;
+            margin: 20px 0;
+      }
+      #filter .filter_btn {
+            width: 150px;
+      }
+      #quality .quality_right h2{
+            font-size: 48px;
+      }
+      #quality .quality_right{
+            width: 85%;
+      }
+}
+
+@media (max-width: 991px) {
+      .head_icon {
+            display: none;
+      }
+
+      #Hero .hero_left {
+            max-width: 720px;
+            margin: 10px auto;
+      }
+
+      #Hero h1 {
+            font-size: 55px;
+            width: 65%;
+      }
+
+      #Hero p {
+            margin: 20px 0;
+            width: 65%;
+      }
+}
+
+@media (max-width: 767px) {
+      #Hero .hero_left {
+            max-width: 540px;
+      }
+
+      #Hero .hero_main {
+            padding-left: 45px;
+      }
+
+      #Hero h1 {
+            width: 88%;
+      }
+
+      #Hero p {
+            width: 100%;
+      }
+      #best .best_left{
+            width: 100%;
+      }
+}
+
+@media (max-width: 576px) {
+      #Hero .hero_main {
+            padding-left: 30px;
+      }
+
+      #Hero h1 {
+            max-width: 338px;
+            font-size: 44px;
+      }
+
+      #Hero p {
+            width: 88%;
+      }
+      #quality .quality_right h2{
+            font-size: 38px;
+      }
+      
+      #best .best_left h3{
+            font-size: 30px;
+      }
+      #best p{
+            font-size: 12px;
+      }
+}
+
+@media (max-width: 430px) {
+      #Hero h1 {
+            font-size: 31px;
+            max-width: 275px;
+      }
+
+      #Hero p {
+            width: 100%;
+            font-size: 16px;
+      }
+
+      #vintage .vintage_right p {
+            font-size: 12px;
+      }
+
+      #vintage .vintage_right h3 {
+            font-size: 18px;
+      }
+
+      #vintage .vintage_left .vintage_left_taxt h2 {
+            font-size: 50px;
+      }
+
+      #vintage .vintage_left {
+            height: 290px;
+      }
+
+      #filter .filter_top_l {
+            width: 100%;
+      }
+}
